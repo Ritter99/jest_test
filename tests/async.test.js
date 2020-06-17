@@ -7,7 +7,7 @@
 //   fetchData(callback);
 // });
 
-test('the data is in peanut butter', () => {
+test('the data is peanut butter', () => {
   function callback() {
     try {
       expect(data).toBe('peanut butter')
@@ -17,4 +17,10 @@ test('the data is in peanut butter', () => {
   }
 
   fetchData(callback)
+})
+
+test('the data is peanut butter', () => {
+  return fetchData().then(data => {
+    expect(data).toBe('peanut butter')
+  })
 })
