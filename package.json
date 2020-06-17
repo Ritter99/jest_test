@@ -1,4 +1,12 @@
 {
+  "name": "jest_test",
+  "description": "A test environment for experimenting with Jest.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ritter99/jest_test.git"
+  },
+  "main": "sum.js",
+  "version": "0.0.1",
   "devDependencies": {
     "jest": "^26.0.1"
   },
