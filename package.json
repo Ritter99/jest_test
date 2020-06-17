@@ -3,7 +3,7 @@
   "description": "A test environment for experimenting with Jest.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ritter99/jest_test.git"
+    "url": "git+https://github.com/Ritter99/jest_test.git"
   },
   "main": "sum.js",
   "version": "0.0.1",
@@ -13,5 +13,10 @@
   "license": "UNLICENSED",
   "scripts": {
     "test": "jest"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Ritter99/jest_test/issues"
+  },
+  "homepage": "https://github.com/Ritter99/jest_test#readme",
+  "author": "Isaiah Ritter"
 }
