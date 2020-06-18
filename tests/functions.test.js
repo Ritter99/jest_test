@@ -19,9 +19,17 @@ test("User should be John Smith", () => {
   });
 });
 
+// Promise
 test("User fetched name should be Leanne Graham", () => {
   expect.assertions(1); // Needed for promises and async code
   return functions.fetchUser().then((res) => {
     expect(res.name).toEqual("Leanne Graham");
   });
+});
+
+// Async
+test("User fetched name should be Leanna Graham", async () => {
+  expect.assertions(1);
+  const data = await functions.fetchUser();
+  expect(data.name).toEqual("Leanne Graham");
 });
