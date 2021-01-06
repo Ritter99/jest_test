@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Ritter99/jest_test#readme",
   "author": "Isaiah Ritter",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "node-fetch": "^2.6.0"
   }
 }
